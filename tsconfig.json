@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "noEmit": false,
+    "strict": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
+}

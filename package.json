@@ -1,0 +1,42 @@
+{
+    "name": "@mdrajibul/cloud-config-utils",
+    "version": "1.0.0",
+    "description": "A cloud config utils library",
+    "main": "dist",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "del-cli dist && tsc",
+        "prettier:all": "prettier --write src/**/*.{js,jsx,ts,tsx,css}",
+        "lint": "tslint --project tsconfig.json",
+        "lint:fix": "tslint --project tsconfig.json --fix"
+    },
+    "author": "Md.Rajib-Ul-Islam<mdrajibul@gmail.com>",
+    "license": "ISC",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@types/node": "^12.11.1",
+        "axios": "^0.19.2",
+        "command-line-args": "^5.1.1",
+        "dot-object": "^2.1.3",
+        "js-yaml": "^3.14.0"
+    },
+    "devDependencies": {
+        "@types/command-line-args": "^5.0.0",
+        "@types/dot-object": "^2.1.1",
+        "@types/js-yaml": "^3.12.5",
+        "del-cli": "^3.0.0",
+        "prettier": "^1.18.2",
+        "tslint": "^5.14.0",
+        "tslint-config-prettier": "^1.18.0",
+        "tslint-plugin-prettier": "^2.0.1",
+        "typescript": "~3.8.3"
+    },
+    "keywords": [
+        "cloud",
+        "config",
+        "dynamic cloud config",
+        "typescript"
+    ]
+}
