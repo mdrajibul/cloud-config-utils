@@ -54,10 +54,10 @@ generateProfile();
 Below are the available options which need to pass as command line args
 
 <ul>
-  <li>profile(f): profile name as dev, prod, qa etc. Make sure you should have a folder under root name setup and some yml file as profile.dev.yml, qa.dev.yml etc. Alias `f` and default value `dev`</li>
-<li>profilePath(a): Absolute path. when profilePath set then profile should be ignored</li>
-<li>remoteConfigUrl(r): A hosted config url. If set then it will fetch and return data</li>
-<li>port(p): user specific port to run nodeJs application</li>
+  <li><b>profile(f)</b>: profile name as dev, prod, qa etc. Make sure you should have a folder under root name setup and some yml file as profile.dev.yml, qa.dev.yml etc. Alias `f` and default value `dev`</li>
+<li><b>profilePath(a)</b>: Absolute path. when profilePath set then profile should be ignored</li>
+<li><b>remoteConfigUrl(r)</b>: A hosted config url. If set then it will fetch and return data</li>
+<li><b>port(p)</b>: user specific port to run nodeJs application</li>
 </ul>
 
 <b>Usage:</b> 
